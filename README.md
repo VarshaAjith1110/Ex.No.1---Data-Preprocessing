@@ -32,6 +32,7 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
+```
 import pandas as pd
 
 df=pd.read_csv("/content/Churn_Modelling.csv")
@@ -79,10 +80,18 @@ sc = StandardScaler()
 df1 = sc.fit_transform(df)
 
 print(df1)
-
+```
 ## OUTPUT:
 (![image](https://user-images.githubusercontent.com/94222288/228867625-925940c2-568f-4741-9fc8-c3cc881d1747.png)
 )
+![image](https://user-images.githubusercontent.com/94222288/228867864-1a4d1279-361d-4af2-9504-b32e809f259a.png)
+![image](https://user-images.githubusercontent.com/94222288/228867959-0f4ffa0d-5db9-4030-849c-b8886a1df393.png)
+![image](https://user-images.githubusercontent.com/94222288/228867998-5b7abb44-3371-4b44-a749-115ae88e9c21.png)
+![image](https://user-images.githubusercontent.com/94222288/228868208-f8a0dc3e-fb21-4eaa-a6d7-e7425222e9da.png)
+![image](https://user-images.githubusercontent.com/94222288/228868262-53149daa-630d-4cfc-8ebe-eb4a80f29119.png)
+![image](https://user-images.githubusercontent.com/94222288/228868316-987bc63d-1d0f-411e-a51f-af85432f68ce.png)
+![image](https://user-images.githubusercontent.com/94222288/228868393-f19ae194-52ec-4ac6-829f-4d0e1d9727f0.png)
+![image](https://user-images.githubusercontent.com/94222288/228868448-fcf84473-2398-4b05-bd80-0f709b5f1f72.png)
 
 ## RESULT
-/Type your result here/
+Thus,the program to perform Data preprocessing in a data set downloaded from Kaggle is implemented successfully..
