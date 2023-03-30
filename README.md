@@ -33,6 +33,11 @@ Splitting the data into test and train
 
 ## PROGRAM:
 ```
+NAME: VARSHA AJITH
+REG NO: 212221230118
+
+
+
 import pandas as pd
 
 df=pd.read_csv("/content/Churn_Modelling.csv")
